@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		<link rel="stylesheet" type="text/css" href="css/Screen.css" />
+		<script type="text/javascript" src="js/Screen.js"></script>
+		<script type="text/javascript" src="js/Exemples.js"></script>
+	</head>
+	<body onload="screen = new Screen('screen');">
+		<div class="screen" id="screen">
+		</div>
+		<div class="exemples">
+			<span onclick="Exp01()">Clear Screen</span>
+			<span onclick="Exp02()">Exemple 02</span>
+			<span onclick="Exp03()">Exemple 03</span>
+			<span onclick="Exp04()">Exemple 04</span>
+			<span onclick="Exp05()">Exemple 05</span>
+			<span onclick="Exp06()">Exemple 06</span>
+			<span onclick="Exp07()">Exemple 07</span>
+			<span onclick="Exp08()">Exemple 08</span>
+			<span onclick="Exp09()">Exemple 09</span>
+			<span onclick="Exp10()">Exemple 10</span>
+			<span onclick="Exp11()">Exemple 11</span>
+			<span onclick="Exp12()">Exemple 12</span>
+			<span onclick="Exp13()">Exemple 13</span>
+			<span onclick="Exp14()">Exemple 14</span>
+			<span onclick="Exp15()">Exemple 15</span>
+			
+			<span onclick="Exp16()">Attributs personalisés</span>
+			<span onclick="Exp17()">Attributs personalisés - 2</span>
+			<span onclick="Exp18()">Attributs personalisés - 3</span>
+			<span onclick="Exp19()">Exemple 19</span>
+			<span onclick="Exp20()">Exemple 20</span>
+		</div>
+		<h1>Attributs personalisés</h1>
+		<!-- La possibilité de crée notre attribue, il suffit de le prefixé par data -->
+		<div
+			id = "ext01"
+			data-mq = "Master Qualité du Logiciel"
+			data-background-color = "yellow"
+			data-2019 = "Au 2018-2019"
+			data-background.color = "gray"
+			
+			mql-color = "blue"
+			mql-year = "2019"
+			mql-techno = "JavaScript"
+		>
+			Attributs "Dataset"
+		</div>
+		
+		<h1>Elements personalisés</h1>
+		<div id = "ext02">
+			<div>Balises</div>
+			<mql-color>blue</mql-color>
+			<mql-year>2019</mql-year>
+			<mql-techno>JavaScript</mql-techno>
+		</div>
+	</body>
+</html>
